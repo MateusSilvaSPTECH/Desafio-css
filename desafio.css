@@ -1,0 +1,39 @@
+/* Desafio */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: rgb(247, 0, 173);
+}
+.cabecalho{
+    background-color: #c8ff00;
+    text-align: center;
+}
+.subtitle{
+    color: #ce0000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.conteudo{
+    background-color: rgb(56, 241, 241);
+    color: rgb(165, 121, 68);
+}
+.conteudo p {
+    font-size: 42px;
+    font-weight: bold;
+    color: #E4005A;
+}
+
+/* Desafio plus */
+.conteudo .filhoConteudo{
+    color: purple;
+    text-decoration: underline
+}
+
+/* Desafio plus 2 */
+@media(max-width : 480px){
+    .container{
+        background-color: #ADD8E6;
+    }
+}
